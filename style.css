@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  min-height: 92vh;
+  overflow: auto;
+  background-image: url("https://e0.pxfuel.com/wallpapers/176/804/desktop-wallpaper-weather-beautiful-weather.jpg"); /* Replace with your image URL */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: background 0.5s ease;
+  color: white; /* Set text color to white for better visibility */
+}
+
+.header h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 2.4rem;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+  text-align: center; /* Center the heading */
+}
+
+.app-main {
+  min-height: 10vh;
+  width: 35vw;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(60, 67, 61, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 15px;
+  background: linear-gradient(to top, #0a0db6b3, #94f01d);
+  color: white; /* White text inside the app */
+}
+
+.app-main > * {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  width: 100%;
+  background: rgb(243, 249, 250);
+  color: #020e03;
+  font-weight: 500;
+  border: none;
+  font-size: 1.7rem;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+}
+
+.weather-body {
+  color: white;
+  padding: 20px;
+  line-height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  background: linear-gradient(to top, #79021e, #0791d639);
+}
+
+.location-deatils {
+  font-weight: bold;
+}
+
+.weather-status {
+  padding: 20px;
+}
+
+.temp {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+  margin-top: 25px;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.min-max {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.day-details {
+  padding: 20px;
+}
+
+#weather-icon {
+  color: rgba(0, 0, 0, 0.671);
+}
+
+@media screen and (max-width: 800px) {
+  .app-main {
+    width: 95%;
+    padding: 10px;
+  }
+
+  body {
+    min-height: 94vh;
+  }
+}
+
+/* Custom animation and effect for page transitions */
+body.transition-bg {
+  background-image: url("https://wallpaperaccess.com/full/2942776.jpg"); /* Replace with your image URL */
+}
