@@ -4,7 +4,7 @@ This web project uses the OpenWeatherMap API to fetch weather data.
 
 ### Web Link
 
-[Weather Checker Web App](https://Rithish5.github.io/Weather-Checker/)
+https://rithish5.github.io/Weather_Checker.github.io/
 
 ### Netlify Link
 
