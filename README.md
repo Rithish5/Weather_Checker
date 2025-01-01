@@ -22,7 +22,7 @@ https://boisterous-eclair-46c312.netlify.app/
 
 ### How to Get Your API Key
 
-1. Go to [OpenWeatherMap API](https://openweathermap.org/api).
+1. Go to [OpenWeatherMap API](https://api.openweathermap.org/data/2.5/weather).
 2. Sign up or log in to your account.
 3. Generate your API key by navigating to the "API keys" section.
 4. Add your API key in the JavaScript code (where you make the API request to OpenWeatherMap).
