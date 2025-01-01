@@ -8,7 +8,7 @@ https://rithish5.github.io/Weather_Checker.github.io/
 
 ### Netlify Link
 
-[Weather Checker Web App on Netlify](https://weather-checker.netlify.app/)
+https://boisterous-eclair-46c312.netlify.app/
 
 ### Features of the Project
 
